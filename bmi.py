@@ -6,4 +6,4 @@ height = float(input('Height (cm): ')) #Asking user to input height and convert 
 
 bmi = round(weight/(height/100)**2, 2)  # Found how to round to 2 decimal places form this page https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python
 
-print("Your BMI is:{}" .format(bmi))
+print("Your BMI is (kg/m2):{}" .format(bmi))
