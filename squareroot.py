@@ -1,25 +1,14 @@
 #This program takes a positive floating-point number as input and outputs an approximation of its square root.
 #Author: Prasanth Sukumar
 
-#Source: slightly updated the code found in this video https://www.youtube.com/watch?v=tUFzOLDuvaE
+#Source: slightly updated the code found here https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
 
-def sqrt(num):
-	guess = num					# First guess is just num itself
-	diff = 999999999			# diff is used to check terminating condition
-	while diff > 0.0001:        # Loop until difference is too small
-		# Apply Newton's Method
-		newGuess = guess - ((guess**2 - num) / (2*guess))
-		
-		# Calculate the absolute difference between the two guesses
-		diff = newGuess - guess
-		if diff < 0:
-			diff *= -1
-			
-		# Update existing guess
-		guess = newGuess
-		
-	return guess
-	
+def sqrt(number, number_iters = 500):
+    a = float(number) # number to get square root of
+    for i in range(number_iters): # iteration number
+        number = 0.5 * (number + a / number) # update , x_(n+1) = 0.5 * (x_n +a / x_n)
+    return number
+
 num = float(input("Please enter a positive number:"))
 sqroot = sqrt(num)
 print("The square root of {} is approx. {:.1f}".format(num, sqroot))
