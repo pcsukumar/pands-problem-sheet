@@ -18,4 +18,5 @@ This program ask the user to inpurt a string and output every second letter in r
 This program asks the user to input any positive integer.  
 If it is even, divide it by 2; if it is odd, multiply it by 3 and add 1. Program ends when the current value is 1.
   
-  
+### Week 6 - Find approximate square root
+This program takes a positive floating-point number as input and outputs an approximation of its square root.  
