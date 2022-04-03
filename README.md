@@ -2,24 +2,24 @@
 ___
 ### Week 2 - Calculating BMI
 This program is to calculate the BMI when weight (Kg) and height (cm) given.
-     
+User inputed values first convert to float, then do the calculations and print the results.     
+
     
-    
-### Week 3 - Week day
-This program checks whether today is a weekday or not and print a message accordingly.
- 
- 
-    
-### Week 4 - Extract second letter and print in reverese order
-This program ask the user to inpurt a string and output every second letter in reverse order
+### Week 3 - Extract second letter and print in reverese order
+This program ask the user to inpurt a string and output every second letter in reverse order. Python string slicing method is used to do this task.
   
   
-### Week 5 - Collatz
+### Week 4 - Collatz
 This program asks the user to input any positive integer.  
 If it is even, divide it by 2; if it is odd, multiply it by 3 and add 1. Program ends when the current value is 1.
 
 An array named 'result' is created with input number as first element. Checks input number is odd or even using modulus operator. A while loop runs untile the value reaches 1. Result from each iteration adds to the 'result' array and finally print the array without brackets in a single line.
   
+### Week 5 - Week day
+This program checks whether today is a weekday or not and print a message accordingly.
+ 
+This program start with importing date from datetime module. Then gets the day number in the week and if else statement is used to print the text depends on the day number.
+
 ### Week 6 - Find approximate square root
 This program takes a positive floating-point number as input and outputs an approximation of its square root.  
 
