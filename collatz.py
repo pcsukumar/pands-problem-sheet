@@ -4,9 +4,11 @@
 #Author : Prasanth Sukumar
 
 inputNumber = int(input("Please enter a positive integer:"))
+result = [inputNumber] #array to save number from each iteration https://stackoverflow.com/questions/57344985/storing-data-from-while-loop-in-array
 while (inputNumber > 1): #Continue untile the value reaches 1
     if (inputNumber % 2) == 0: #Check if the value is even
         inputNumber = inputNumber/2 #if even, devide by 2
     else:
         inputNumber = (inputNumber*3)+1 #else if odd, multiply by 3 and add 1
-    print(int(inputNumber)) #print each iteration
+    result.append(int(inputNumber))
+print(*result) #print the numbers in a single row without brackets https://stackoverflow.com/questions/11178061/print-list-without-brackets-in-a-single-row

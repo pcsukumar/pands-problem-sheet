@@ -17,6 +17,8 @@ This program ask the user to inpurt a string and output every second letter in r
 ### Week 5 - Collatz
 This program asks the user to input any positive integer.  
 If it is even, divide it by 2; if it is odd, multiply it by 3 and add 1. Program ends when the current value is 1.
+
+An array named 'result' is created with input number as first element. Checks input number is odd or even using modulus operator. A while loop runs untile the value reaches 1. Result from each iteration adds to the 'result' array and finally print the array without brackets in a single line.
   
 ### Week 6 - Find approximate square root
 This program takes a positive floating-point number as input and outputs an approximation of its square root.  
