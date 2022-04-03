@@ -13,7 +13,7 @@ This program ask the user to inpurt a string and output every second letter in r
 This program asks the user to input any positive integer.  
 If it is even, divide it by 2; if it is odd, multiply it by 3 and add 1. Program ends when the current value is 1.
 
-An array named 'result' is created with input number as first element. Checks input number is odd or even using modulus operator. A while loop runs untile the value reaches 1. Result from each iteration adds to the 'result' array and finally print the array without brackets in a single line.
+An array named 'result' is created with input number as first element. Checks input number is odd or even using modulus operator. A while loop runs untile the value reaches 1. Result from each iteration appends to the 'result' array and finally print the array without brackets in a single line.
   
 ### Week 5 - Week day
 This program checks whether today is a weekday or not and print a message accordingly.
@@ -27,3 +27,6 @@ Variable 'diff' is initated with a large value. A while loop runs until the diff
 
 ### Week 7 - A program that reads in a text file and outputs the number of e's it contains.
 This program reads in a text file and outputs the number of e's it contains. The assumption is that the file may contain both uppercase and lowercase e's. To count all e's irrespective of upper or lower, the progrm first convert the file content to lower case and then read all lowercase e's. The ArgumentParser is used to  take the filename as an argument on the command line.
+
+### Week 7 - Write a program that displays a plot of a function
+This program displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
