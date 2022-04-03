@@ -10,5 +10,5 @@ while (inputNumber > 1): #Continue untile the value reaches 1
         inputNumber = inputNumber/2 #if even, devide by 2
     else:
         inputNumber = (inputNumber*3)+1 #else if odd, multiply by 3 and add 1
-    result.append(int(inputNumber))
+    result.append(int(inputNumber)) #append result from each iteration to the array
 print(*result) #print the numbers in a single row without brackets https://stackoverflow.com/questions/11178061/print-list-without-brackets-in-a-single-row
