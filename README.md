@@ -1,4 +1,4 @@
-## Pands Problem Sheet - Readme
+## Pands Problem Sheet - README
 ___
 ### Week 2 - Calculating BMI
 This program is to calculate the BMI when weight (Kg) and height (cm) given.
