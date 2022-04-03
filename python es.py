@@ -10,7 +10,7 @@ parser.add_argument("file", type=Path)
 args = parser.parse_args()
 
 filename = args.file
-with open (filename, 'rt', errors='ignore') as f: #errors ignore is used to ignore UnicodeDecodeError when the file contains other charactes. 
+with open (filename, 'rt', errors='ignore') as f: #errors ignore is used to ignore UnicodeDecodeError when the file contains other charactes e.g.€ 
     text = f.read().lower() # The file may contain both upper and lower e's. To count both, the file content is converted to lower case
     count = 0 #initiating the counter
     for char in text: #for loop to go through each charcter and if it is 'e' incriment the counter.
