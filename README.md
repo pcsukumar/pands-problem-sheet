@@ -28,5 +28,5 @@ Variable 'diff' is initated with a large value. A while loop runs until the diff
 ### Week 7 - A program that reads in a text file and outputs the number of e's it contains.
 This program reads in a text file and outputs the number of e's it contains. The assumption is that the file may contain both uppercase and lowercase e's. To count all e's irrespective of upper or lower, the progrm first convert the file content to lower case and then read all lowercase e's. The ArgumentParser is used to  take the filename as an argument on the command line.
 
-### Week 7 - Write a program that displays a plot of a function
+### Week 8 - Write a program that displays a plot of a function
 This program displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
