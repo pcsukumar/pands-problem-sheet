@@ -9,10 +9,10 @@ ylist = xlist
 plt.plot(xlist, ylist, label="f(x)=x")
 
 ylist = xlist**2
-plt.plot(xlist, ylist, label="g(x)=X2")
+plt.plot(xlist, ylist, label="g(x)=X^2")
 
 ylist = xlist**3
-plt.plot(xlist, ylist, label="g(x)=X3")
+plt.plot(xlist, ylist, label="g(x)=X^3")
 
 plt.title('Plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4]')
 plt.xlabel('x - axis')
